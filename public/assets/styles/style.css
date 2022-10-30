@@ -3,7 +3,7 @@ html {
 }
 
 .navbar {
-  background-color: #2672d8;
+  background-color: #1c62be;
 }
 
 .navbar-brand {
@@ -15,7 +15,7 @@ html {
 }
 
 .navbar-brand:hover {
-  color: wheat;
+  color: rgb(245, 179, 244);
 }
 
 .navbar-brand h1 {
@@ -48,13 +48,13 @@ html {
 }
 
 .main-image-content img {
-  max-width: 650px;
+  max-width: 635px;
   width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .main-image-content {
-    padding: 0 1rem;
+    padding: 0 1.5rem;
   }
 
   .main-image-content img {
