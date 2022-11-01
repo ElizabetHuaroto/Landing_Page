@@ -3,7 +3,7 @@ Proyecto en el cual se desarrolla el landing page de EstuReview
 
 Autores:
 
-1.Gonzales Cáceres, Renzo Sebatian
+1.Gonzales Cáceres, Renzo Sebastian
 
 2.Huaroto Cadenas, Elizabeth Araceli
 
