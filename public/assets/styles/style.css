@@ -7,7 +7,8 @@ html {
 }
 
 .navbar-brand {
-  display: flex;
+  display: flex; /*se muestra uno a continuacion de otro de inzq a derecha*/
+  /*justify-conent:space-betweem es para dar espacio entre los componentes*/
   gap: 1rem;
   align-items: center;
   color: white;
@@ -55,12 +56,15 @@ html {
 @media screen and (max-width: 768px) {
   .main-image-content {
     padding: 0 1.5rem;
+    width: 100%;
   }
 
   .main-image-content img {
     max-width: 100%;
+    
   }
 }
+
 
 .main-section {
   padding: 2rem 1.5rem;
@@ -72,6 +76,8 @@ html {
   background-color: #f1f1f1;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  max-width: 100%;
+  
 }
 
 .main-section-content h2 {
@@ -86,6 +92,7 @@ html {
 .main-section-content > div {
   margin: 1rem 0;
 }
+
 
 .bienvenido-container {
   display: flex;
@@ -287,7 +294,31 @@ html {
 .promociones-container {
   padding: 4rem 2rem;
 }
+/*promociones*/
+@media  (max-width: 1000) {
+  .promociones-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+@media( max-width: 768px) {
+   .promociones-container> div:first-child {
+    max-width: 600px;
+    width: 100%;
+  justify-content: center;
+  flex-direction: column;
 
+}}
+@media( max-width: 768px) {
+  .promociones-container> div:first-child img {
+  flex-direction: row-reverse;
+   max-width:100px;
+   width: 100%;
+ justify-content: center;
+
+}}
 .promociones-container > div:first-child {
   display: flex;
   justify-content: center;
@@ -406,7 +437,7 @@ footer li {
 }
 
 .icons a {
-  background: #52527a;
+  background: #ffffff;
   color: #272727;
   padding: 14px;
   font-size: 20px;
