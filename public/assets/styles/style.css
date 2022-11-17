@@ -236,10 +236,9 @@ html {
   justify-content: center;
   left:160px;
 }
-@media screen and (max-width:768px){ 
+@media screen and (max-width:678){ 
   .pantallas-container>div>div h3 {
    left:0;
-
    display: flex;
   }
 }
