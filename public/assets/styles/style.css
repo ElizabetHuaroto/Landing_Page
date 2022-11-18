@@ -185,19 +185,28 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 300px;
 }
 @media screen and (min-width: 768px) and  
 (max-width: 1300px) {
-  .pantallas-container > div and .pregunta {
-    display: grid; 
-    gap: 100px; 
+  .pantallas-container>div  {   
+    gap: 80px; 
 }}
+
+@media screen and (min-width: 768px) and  
+(max-width: 1300px) {
+  .pantallas-container .pregunta .boton{
+    display: grid;    
+   
+}}
+
 @media screen and (max-width: 768px) {
   .pantallas-container > div  {
     display: grid; 
     gap: 100px; 
 }}
+
+
 @media screen and (max-width: 768px) {
   .pantallas-container .pregunta{
     display: flex; 
