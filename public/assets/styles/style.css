@@ -191,7 +191,7 @@ html {
 (max-width: 1300px) {
   .pantallas-container > div and .pregunta {
     display: grid; 
-    gap: 100px; 
+    gap: 80px; 
 }}
 @media screen and (max-width: 768px) {
   .pantallas-container > div  {
