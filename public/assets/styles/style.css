@@ -185,10 +185,16 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 300px;
+  gap: 200px;
 }
+@media screen and (min-width: 768px) and  
+(max-width: 1300px) {
+  .pantallas-container > div and .pregunta {
+    display: grid; 
+    gap: 100px; 
+}}
 @media screen and (max-width: 768px) {
-  .pantallas-container > div {
+  .pantallas-container > div  {
     display: grid; 
     gap: 100px; 
 }}
