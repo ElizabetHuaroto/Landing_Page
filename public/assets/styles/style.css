@@ -376,7 +376,7 @@ color:rgb(184, 49, 218);
 .hombre{
    display: block;
 }
-@media  (max-width:768px){
+
 /*cambieee de 7 a 1000*/
 @media  (max-width:1000px){ 
   .hombre{
