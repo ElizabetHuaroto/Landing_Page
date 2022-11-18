@@ -40,10 +40,14 @@ html {
 }
 
 /*aqui cambieeee*/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and  
+(max-width: 1300px){
   .main-image-content {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+    width: 80%;
+   
   }
 }
 .main-image-content img {
@@ -54,6 +58,7 @@ html {
   .main-image-content {
     padding: 0 1.5rem;
     width: 100%;
+   
   }
   .main-image-content img {
     max-width: 100%;
@@ -416,7 +421,7 @@ color:rgb(184, 49, 218);
   text-align: center;
 }
 .promociones-container > div:first-child > div:last-child > main {
-  display: flex;
+  display: grid;
   gap: 15px;
   justify-content: center;
 }
@@ -425,11 +430,13 @@ color:rgb(184, 49, 218);
   gap: 15px;
   justify-content: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 .promociones-container > div:first-child > div:last-child > main {
+  
   display: grid;
 }
 }
+
 .promociones-container > div:first-child > div:last-child > main > div {
   background-color: #2672d8;
   color: white;
@@ -454,6 +461,7 @@ color:rgb(184, 49, 218);
 .promociones-container > div:first-child > div:last-child > main > div > h5 {
   font-size: 1.5rem;
   font-weight: 700;
+  
 }
 .promociones-container > div:last-child {
   display: flex;
