@@ -47,7 +47,13 @@ html {
     align-items: center;
   }
 }
-
+/*aqui cambieeee*/
+@media screen and (max-width: 768px) {
+  .main-image-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .main-image-content img {
   max-width: 635px;
   width: 100%;
@@ -384,6 +390,15 @@ color:rgb(184, 49, 218);
     margin-bottom: 50px;
 
   }
+  /*aqui cambieeee*/
+  .promociones-container>div  {
+   display:flex;
+  }
+  @media  (max-width: 1000px) {.promociones-container  h2 {
+    text-align: center;
+
+  }
+  }
 @media  (max-width: 768px) {
   .promociones-container {
     display: grid;
@@ -420,7 +435,8 @@ color:rgb(184, 49, 218);
 .hombre{
    display: block;
 }
-@media  (max-width:768px){
+/*cambieee de 7 a 1000*/
+@media  (max-width:1000px){ 
   .hombre{
   display: none;
 }}
