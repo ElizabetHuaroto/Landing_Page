@@ -87,14 +87,15 @@ html {
 .main-section-content span {
   color: #2672d8;
   font-weight: 700;
+  
 }
 
 .main-section-content > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
- 
+  gap: 15px;
+  margin-top: 15px;
 }
 
 
@@ -208,11 +209,17 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 300px;
 }
 @media screen and (max-width: 768px) {
   .pantallas-container > div {
-    display: grid;
+    display: grid; 
+    gap: 100px; 
+}}
+
+@media screen and (max-width: 768px) {
+  .pantallas-container .pregunta{
+    display: flex; 
 }
 }
 .pantallas-container h2 {
@@ -257,6 +264,7 @@ background-color:rgb(184, 49, 218)
   border: 2px solid rgb(184, 49, 218);
 color:rgb(184, 49, 218);
 }
+
 .pantallas-container .pregunta{
   margin-top: 2rem;
   justify-content: center;
@@ -342,16 +350,17 @@ color:rgb(184, 49, 218);
 .testimonios-container > div > div > img {
   max-width: 300px;
   width: 100%;
-  margin: 1rem 0;
+  gap: 10 rem
 }
 
 .testimonios-container > div > div > .image-mobile {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1068px) {
   .testimonios-container > div {
     flex-direction: column;
+    align-items: center;
   }
 
   .testimonios-container > div > div {
@@ -371,15 +380,36 @@ color:rgb(184, 49, 218);
   padding: 4rem 2rem;
 }
 /*promociones*/
-@media  (max-width: 768) {
+ .promociones-container .oferta img {
+    margin-bottom: 50px;
+
+  }
+}
+@media  (max-width: 768px) {
   .promociones-container {
     display: grid;
-    display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
   }
 }
+@media  (max-width: 768px) {
+  .promociones-container p {
+    margin-bottom: -30px;
+  }
+}
+@media  (max-width: 768px) {
+  .promociones-container .oferta img {
+    margin-bottom: 50px;
+    margin-top: 0 px;;
+   max-width: 300px; 
+   min-width: 150px;
+   display: flex;
+    width: 100%; 
+  }
+}
+
+
 @media( max-width: 768px) {
    .promociones-container> div:first-child {
     max-width: 600px;
@@ -391,7 +421,7 @@ color:rgb(184, 49, 218);
 .hombre{
    display: block;
 }
-@media (max-width:768px){
+@media  (max-width:768px){
   .hombre{
   display: none;
 }}
