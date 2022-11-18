@@ -217,6 +217,12 @@ html {
   gap: 100px;
 }
 
+.pantallas-container > div > div {
+  flex: 50%;
+  padding: 4 rem;
+  border-radius: 15px;
+  text-align: center;
+}
   @media screen and (max-width: 768px) {
     .pantallas-container > div {
       display: grid;
