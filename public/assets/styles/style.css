@@ -87,15 +87,14 @@ html {
 .main-section-content span {
   color: #2672d8;
   font-weight: 700;
-  
 }
 
 .main-section-content > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-  margin-top: 15px;
+  gap: 10px;
+ 
 }
 
 
@@ -209,18 +208,19 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 300px;
+  gap: 100px;
 }
-@media screen and (max-width: 768px) {
-  .pantallas-container > div {
-    display: grid; 
-    gap: 100px; 
-}}
 
-@media screen and (max-width: 768px) {
-  .pantallas-container .pregunta{
-    display: flex; 
-}
+  @media screen and (max-width: 768px) {
+    .pantallas-container > div {
+      display: grid;
+  }
+  }
+.pantallas-container > div > div {
+  flex: 50%;
+  padding: 4 rem;
+  border-radius: 15px;
+  text-align: center;
 }
 .pantallas-container h2 {
   color: #2672d8;
@@ -236,14 +236,21 @@ html {
 }
 .pantallas-container>div>div h3 {
  background-color: #f1f1f1;
-  width: 300px;
+  width:260px;
  text-align: center; 
  justify-content: center;
   align-items: center;
   position: relative;
-
+  
+  justify-content: center;
+  left:160px;
 }
-
+@media screen and (max-width:678){ 
+  .pantallas-container>div>div h3 {
+   left:0;
+   display: flex;
+  }
+}
 .pantallas-container a{
 display: block;
 text-align: center;
@@ -264,7 +271,6 @@ background-color:rgb(184, 49, 218)
   border: 2px solid rgb(184, 49, 218);
 color:rgb(184, 49, 218);
 }
-
 .pantallas-container .pregunta{
   margin-top: 2rem;
   justify-content: center;
@@ -350,17 +356,16 @@ color:rgb(184, 49, 218);
 .testimonios-container > div > div > img {
   max-width: 300px;
   width: 100%;
-  gap: 10 rem
+  margin: 1rem 0;
 }
 
 .testimonios-container > div > div > .image-mobile {
   display: none;
 }
 
-@media screen and (max-width: 1068px) {
+@media screen and (max-width: 768px) {
   .testimonios-container > div {
     flex-direction: column;
-    align-items: center;
   }
 
   .testimonios-container > div > div {
@@ -380,35 +385,14 @@ color:rgb(184, 49, 218);
   padding: 4rem 2rem;
 }
 /*promociones*/
- .promociones-container .oferta img {
-    margin-bottom: 50px;
-
-  }
-@media  (max-width: 768px) {
+@media  (max-width: 1000) {
   .promociones-container {
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
   }
 }
-@media  (max-width: 768px) {
-  .promociones-container p {
-    margin-bottom: -30px;
-  }
-}
-@media  (max-width: 768px) {
-  .promociones-container .oferta img {
-    margin-bottom: 50px;
-    margin-top: 0 px;;
-   max-width: 300px; 
-   min-width: 150px;
-   display: flex;
-    width: 100%; 
-  }
-}
-
-
 @media( max-width: 768px) {
    .promociones-container> div:first-child {
     max-width: 600px;
@@ -417,23 +401,14 @@ color:rgb(184, 49, 218);
   flex-direction: column;
 
 }}
-.hombre{
-   display: block;
-}
-@media  (max-width:768px){
-  .hombre{
-  display: none;
-}}
 @media( max-width: 768px) {
   .promociones-container> div:first-child img {
   flex-direction: row-reverse;
    max-width:100px;
    width: 100%;
-   flex-direction: column;
  justify-content: center;
 
 }}
-
 .promociones-container > div:first-child {
   display: flex;
   justify-content: center;
@@ -457,7 +432,6 @@ color:rgb(184, 49, 218);
   margin: 1rem 0;
 }
 
-
 .promociones-container > div:first-child > div:last-child {
   flex: 70%;
   padding: 2rem;
@@ -471,20 +445,6 @@ color:rgb(184, 49, 218);
   justify-content: center;
 }
 
-.promociones-container > div:first-child > div:last-child > main {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-}
-
-@media (max-width: 768px) {
-.promociones-container > div:first-child > div:last-child > main {
-  display: grid;
-}
-}
-
-
-
 .promociones-container > div:first-child > div:last-child > main > div {
   background-color: #2672d8;
   color: white;
@@ -495,8 +455,6 @@ color:rgb(184, 49, 218);
   font-size: 1.5rem;
   font-weight: 700;
 }
-
-
 
 .promociones-container > div:first-child > div:last-child > main > div::after {
   content: "";
@@ -515,7 +473,6 @@ color:rgb(184, 49, 218);
   font-weight: 700;
 }
 
-
 .promociones-container > div:last-child {
   display: flex;
   justify-content: center;
@@ -525,36 +482,6 @@ color:rgb(184, 49, 218);
   background-color: #f1f1f1;
   border-radius: 15px;
 }
-
-.offert{
-  display: grid;
-  grid-template-columns: 100%;
-  column-gap: 2rem;
-}
-
-@media (max-width:768px) {
-  .offert1{
-    grid-row: 1;
-    grid-column: 1;
-    column-gap: 2rem;
-  }
-}
-
-@media (max-width:768px) {
-  .offert2{
-    grid-column: 1;
-    grid-row: 1;
-    column-gap: 2rem;
-  }
-}
-@media (max-width:768px) {
-  .offert3{
-    grid-column: 1;
-    grid-row: 1;
-    column-gap: 2rem;
-  }
-}
-
 
 .formulario-container {
   padding: 4rem 2rem;
