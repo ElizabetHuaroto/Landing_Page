@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Elizabeth Huaroto Cardenas, Frank Rodriguez Mori, Renzo Gonzalez Caceres, Jose navarro Chacon, Tiffany Ramirez Palma" />
+    <meta
+      name="author"
+      content="Elizabeth Huaroto Cardenas, Frank Rodriguez Mori, Renzo Gonzalez Caceres, Jose navarro Chacon, Tiffany Ramirez Palma"
+    />
     <meta name="description" content="EstuReview Landing Page Site" />
-    <meta name="keywords" content="EstuReview, Universitarios, Universidad, Padres de Familias, Colegios, Reseñas" />
-    <link rel="icon" href="assets/images/Logazo.png">
+    <meta
+      name="keywords"
+      content="EstuReview, Universitarios, Universidad, Padres de Familias, Colegios, Reseñas"
+    />
+    <link rel="icon" href="assets/images/Logazo.png" />
     <title>EstuReview</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"  
+      rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
@@ -23,7 +29,8 @@
         <a class="navbar-brand" href="#">
           <img src="assets/images/logo.jpeg" alt="Logo EstuReview" />
           <h1>EstuReview</h1>
-        </a>  <!-- for hyperlinks -->
+        </a>
+        <!-- for hyperlinks -->
         <button
           class="navbar-toggler"
           type="button"
@@ -41,7 +48,7 @@
               <a class="nav-link" aria-current="page" href="#bienvenido-section"
                 >Nosotros</a
               >
-            </li> 
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#servicios-section">Servicios</a>
             </li>
@@ -66,60 +73,73 @@
     <button class="scroll-top" onclick="scroolTop()">
       <div class="arrow up"></div>
     </button>
-     <!-- the landing will be dissected in 5 sections -->
-      <!--first choose the number of divitions the section will have -->
-    <section class="container main-section">
-      <div class="row">
-         <!-- the space is divided in 12 subsections, in this case it would be the whole space -->
-        <div class="col-12">
-             <!-- divition for images, inside the 2 links of images -->
-          <div class="main-image-content">
-            <img src="assets/images/bienvenido.png" alt="padre de familia leyendo un libro a su hija" />
-            <img src="assets/images/universitario.png" alt="universitaria señalando a la izquierda" />
-          </div>
-          <div class="main-section-content">
-            <h2>
-              EstuReview te ayuda a encontrar el colegios y los profesores
-              universitarios que necesitas
-            </h2>
-            <p>
-              Encuentra reseñas confiables según tus exigencias sobre colegios
-              para los padres de familia y de profesores universitarios para
-              estudiantes universitarios. No te quedes con la duda.
-            </p>
-            <span>Descargala para IOS y Android </span>
-            <div >
-              <img 
-                src="https://llamafood.com/assets/images/button-appStore.svg"
-                alt="Boton IOS"
+    <!-- the landing will be dissected in 5 sections -->
+    <!--first choose the number of divitions the section will have -->
+    <section class="main-section">
+      <div class="container">
+        <div class="row">
+          <!-- the space is divided in 12 subsections, in this case it would be the whole space -->
+          <div class="col-md-12">
+            <!-- divition for images, inside the 2 links of images -->
+            <div class="main-image-content">
+              <img
+                src="assets/images/bienvenido.png"
+                alt="padre de familia leyendo un libro a su hija"
               />
               <img
-                src="https://llamafood.com/assets/images/button-playStore.svg"
-                alt="Boton PlayStore"
+                src="assets/images/universitario.png"
+                alt="universitaria señalando a la izquierda"
               />
+            </div>
+            <div class="main-section-content">
+              <h2>
+                EstuReview te ayuda a encontrar el colegios y los profesores
+                universitarios que necesitas
+              </h2>
+              <p>
+                Encuentra reseñas confiables según tus exigencias sobre colegios
+                para los padres de familia y de profesores universitarios para
+                estudiantes universitarios. No te quedes con la duda.
+              </p>
+              <span>Descargala para IOS y Android </span>
+              <div>
+                <img
+                  src="https://llamafood.com/assets/images/button-appStore.svg"
+                  alt="Boton IOS"
+                />
+                <img
+                  src="https://llamafood.com/assets/images/button-playStore.svg"
+                  alt="Boton PlayStore"
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="bienvenido-section" class="container bienvenido-container">
-      <div class="bienvenido-title-content">
-        <h2>Bienvenido somos EstuReview</h2>
-        <div>
-          <p>
-            La misión de nuestra empresa es convertirse en una fuente de
-            información imprescindible para que los estudiantes universitarios
-            puedan reseñar a los maestros con los que han estudiado y buscar
-            reseñas de los profesores que se ajusten a sus métodos de enseñanza;
-            asimismo, para que los padres de familia puedan comentar y leer
-            comentarios sobre las instituciones educativas con las que se han
-            relacionado.
-          </p>
+    <section id="bienvenido-section" class="bienvenido-container">
+      <main class="container">
+        <div class="bienvenido-title-content">
+          <h2>Bienvenido somos EstuReview</h2>
+          <div>
+            <p>
+              La misión de nuestra empresa es convertirse en una fuente de
+              información imprescindible para que los estudiantes universitarios
+              puedan reseñar a los maestros con los que han estudiado y buscar
+              reseñas de los profesores que se ajusten a sus métodos de
+              enseñanza; asimismo, para que los padres de familia puedan
+              comentar y leer comentarios sobre las instituciones educativas con
+              las que se han relacionado.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="image-bienvenido">
-        <img src="assets/images/bienvenidos2.png" alt ="sombreros de graduación"/> 
-      </div>
+        <div class="image-bienvenido">
+          <img
+            src="assets/images/bienvenidos2.png"
+            alt="sombreros de graduación"
+          />
+        </div>
+      </main>
     </section>
     <section id="servicios-section" class="container servicios-container">
       <h2>¿Qué ofrecemos?</h2>
@@ -136,16 +156,14 @@
             <li>Buscador con filtros.</li>
             <li>Lista de elementos guardados.</li>
             <li>Calificaciones de características del colegio.</li>
-            <li>
-              Capacidad de escribir reviews y de calificar a un colegio.
-            </li>
+            <li>Capacidad de escribir reviews y de calificar a un colegio.</li>
             <li>Historial de búsquedas de hasta 25 colegios.</li>
           </ul>
         </div>
         <div>
           <h3>Estudiantes universitarios</h3>
           <img
-            src="assets/images/universitarioss.png" 
+            src="assets/images/universitarioss.png"
             alt="Universitarios viendo una laptop"
           />
           <ul>
@@ -160,35 +178,35 @@
         </div>
       </div>
     </section>
-
-    <section id="pantallas-section" class ="container pantallas-container">
-    <h2>Vista al aplicativo ✨ </h2>
-    <div>
-      <div>
-        <h3>Padres de familia</h3>
-        <img
-            src="assets/images/pantalla_pa.png"
-            alt="Pantalla de la parte de padres de familia"           
-          />    
+    <section id="pantallas-section" class="pantallas-container">
+      <div class="container">
+        <h2>Vista al aplicativo ✨</h2>
+        <div>
+          <div>
+            <h3>Padres de familia</h3>
+            <img
+              src="assets/images/pantalla_pa.png"
+              alt="Pantalla de la parte de padres de familia"
+            />
+          </div>
+          <div>
+            <h3>Universitarios</h3>
+            <img
+              src="assets/images/pantalla_un.png"
+              alt="Pantalla de la parte de universitarios"
+            />
+          </div>
+        </div>
+        <div class="pregunta">
+          <h3>¿Deseas conocer más de la aplicación?</h3>
+          <a
+            href="https://www.figma.com/proto/qLo37AbXofJ0V6IXqPv9o1/WEB?node-id=505%3A424&scaling=scale-down&page-id=13%3A2&starting-point-node-id=505%3A424&show-proto-sidebar=1"
+            target="_blank"
+            >Ver prototipo</a
+          >
+        </div>
       </div>
-      <div>
-        <h3>Universitarios</h3>
-        <img
-            src="assets/images/pantalla_un.png"
-            alt="Pantalla de la parte de universitarios"           
-          />    
-      </div>
-    </div>
-    <div class="pregunta">
-      <h3>¿Deseas conocer más de la aplicación? </h3>
-      <div class="boton">
-        <a  href="https://www.figma.com/proto/qLo37AbXofJ0V6IXqPv9o1/WEB?node-id=505%3A424&scaling=scale-down&page-id=13%3A2&starting-point-node-id=505%3A424&show-proto-sidebar=1"
-        target="_blank"
-      >ver prototipo</a>
-      </div>
-    </div>
-  </section>
-    
+    </section>
     <section id="testimonios-section" class="container testimonios-container">
       <h2>Testimonios</h2>
       <div>
@@ -227,51 +245,50 @@
         </div>
       </div>
     </section>
-    <section id="promociones-section" class="container promociones-container">
-      <div>
+    <section id="promociones-section" class="promociones-container">
+      <div class="container">
+        <h2>Aprovecha nuestras promociones</h2>
+        <p>Tenemos promociones a su comodidad</p>
         <div>
-          <h2>Aprovecha nuestras promociones</h2>
-          <p>Tenemos promociones a su comodidad</p>
           <div class="hombre">
-          <img src="assets/images/hombree.png" alt="Hombre sorprendido"/>
+            <img src="assets/images/hombree.png" alt="Hombre sorprendido" />
+          </div>
+          <div class="oferta">
+            <img src="assets/images/promociones.png" alt="Ofertas" />
+            <main>
+              <div>
+                <h5>1 mes</h5>
+                S/. 10.00
+              </div>
+              <div>
+                <h5>3 meses</h5>
+                S/. 20.00
+              </div>
+              <div>
+                <h5>4 meses</h5>
+                S/. 30.00
+              </div>
+            </main>
+          </div>
         </div>
+        <div>
+          <h4>Beneficios de membresia</h4>
+          <ul>
+            <li>
+              Podrás tener contacto directo con el autor de la reseña a través
+              de mensajería en la página
+            </li>
+            <li>
+              Podrás comparar las calificaciones y demás filtros de más de dos
+              colegios o profesores y tener automáticamente el resultado
+            </li>
+            <li>No tendrás publicidad en la versión app y web</li>
+          </ul>
         </div>
-        <div class="oferta">
-          <img src="assets/images/promociones.png" alt="Ofertas"/>
-          <main>
-            <div>
-              <h5>1 mes</h5>
-              S/. 10.00
-            </div>
-            <div>
-              <h5>3 meses</h5>
-              S/. 20.00
-            </div>
-            <div>
-              <h5>4 meses</h5>
-              S/. 30.00
-             </div>
-          </main>
-        </div>
-      </div>
-      <div>
-        <h4>Beneficios de membresia</h4>
-        <ul>
-          <li>
-            Podrás tener contacto directo con el autor de la reseña a través de
-            mensajería en la página
-          </li>
-          <li>
-            Podrás comparar las calificaciones y demás filtros de más de dos
-            colegios o profesores y tener automáticamente el resultado
-          </li>
-          <li>No tendrás publicidad en la versión app y web</li>
-        </ul>
       </div>
     </section>
     <section id="formulario-section" class="container formulario-container">
       <div>
-
         <h2>¿Dudas? ¿Sugerencias? ¡Escríbenos! Siempre estamos para ti.</h2>
         <img src="assets/images/dudas.jpg" />
       </div>
@@ -390,7 +407,6 @@
         });
       }
 
-    
       function setupScrollListener() {
         window.addEventListener("scroll", (e) => {
           const scrollButton = document.querySelector(".scroll-top");
@@ -403,7 +419,6 @@
           } else if (scrollOffset <= 0) {
             scrollButton.classList.remove("visible");
           }
-          
         });
       }
     </script>
