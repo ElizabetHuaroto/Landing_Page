@@ -41,11 +41,11 @@ html {
 
 /*aqui cambieeee*/
 @media screen and (min-width: 768px) and  
-(max-width: 1300px){
+(max-width: 1400px){
   .main-image-content {
     display: flex;
     justify-content: center;
-    padding: 0 1.5rem;
+    padding: 0 -0.5rem;
     width: 80%;
    
   }
@@ -185,7 +185,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 300px;
+  gap: 400px;
 }
 @media screen and (min-width: 768px) and  
 (max-width: 1300px) {
@@ -331,6 +331,13 @@ color:rgb(184, 49, 218);
 .testimonios-container > div > div > .image-mobile {
   display: none;
 }
+
+@media screen and (min-width: 768px) and  
+(max-width: 1300px) {
+  .testimonios-container > div > div > div > img {   
+    max-width: 300px;
+    min-width: 600px; 
+}}
 @media screen and (max-width: 1068px) {
   .testimonios-container > div {
     flex-direction: column;
